@@ -1,0 +1,11 @@
+*.swp
+.DS_Store
+.gitconfig
+AT28C256Programmer.bin
+AT28C256Programmer.eep
+AT28C256Programmer.elf
+AT28C256Programmer.hex
+AT28C256Programmer.lss
+AT28C256Programmer.map
+AT28C256Programmer.sym
+obj

@@ -1,0 +1,24 @@
+[project]
+name = "AT28C256Programmer"
+version = "0.1.0"
+requires-python = ">=3.10"
+authors = [
+    { name="Kintsugi Computer", email="kintsugi.computer@protonmail.com" }
+]
+
+[project.scripts]
+AT28C256Programmer = "AT28C256Programmer.AT28C256Programmer:main"
+RWTester = "AT28C256Programmer.RWTester:main"
+
+[project.optional_dependencies]
+dev = [
+    "hatchling" 
+]
+
+dependencies = [
+    'pyserial = 3.5',
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
